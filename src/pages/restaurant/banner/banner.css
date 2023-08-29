@@ -1,0 +1,21 @@
+/* .custom-background::before {
+    content: "";
+    background-color: rgba(211, 211, 211, 0.5);
+    background-image: url("../../../assets/banner.png");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+} */
+.special-font {
+    font-family: 'Great Vibes';
+    color: #FF9F0D;
+    font-family: Great Vibes;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 125% */
+}

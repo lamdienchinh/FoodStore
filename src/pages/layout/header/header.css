@@ -1,0 +1,32 @@
+.header__items {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.header__item {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+}
+.header__item::after {
+    flex-wrap: wrap;
+    display: flex;
+    content: "";
+    visibility: hidden;
+    width: 7px;
+    height: 7px;
+    top: 0px;
+    margin: 0 auto;
+    transform: translateY(20%);
+    background-color: #FF9F0D;
+    border-radius: 100%;
+    transition: all 0.2s;
+}
+.header__item:hover:after {
+    visibility: visible;
+    transform: translateY(0%);
+}
