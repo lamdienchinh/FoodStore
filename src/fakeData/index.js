@@ -73,3 +73,127 @@ export const col2 = [
         price: "12.5"
     }
 ]
+
+// Menu 
+
+export const menu1 = {
+    img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693377244/nng99dotr6vxtgyyouay.png",
+    title: "Starter Menu",
+    list: [
+        {
+            name: "Alder Grilled Chinook Salmon",
+            des: "Toasted French bread topped with romano, cheddar",
+            calo: "560 CAL",
+            price: "32$"
+        },
+        {
+            name: "Berries and creme tart",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "700 CAL",
+            price: "43$"
+        },
+        {
+            name: "Tormentoso Bush Pizza Pintoage",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "1000 CAL",
+            price: "14$"
+        },
+        {
+            name: "Spicy Vegan Potato Curry",
+            des: "Spreadable cream cheese, crumbled blue cheese",
+            calo: "560 CAL",
+            price: "35$"
+        }
+    ]
+}
+
+export const menu2 = {
+    img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693377244/ca38ebzftbyedprrelat.png",
+    title: "Main Course",
+    list: [
+        {
+            name: "Optic Big Breakfast Combo Menu",
+            des: "Toasted French bread topped with romano, cheddar",
+            calo: "560 CAL",
+            price: "32$"
+        },
+        {
+            name: "Cashew Chicken With Stir-Fry",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "700 CAL",
+            price: "43$"
+        },
+        {
+            name: "Vegetables & Green Salad",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "1000 CAL",
+            price: "14$"
+        },
+        {
+            name: "Spicy Vegan Potato Curry",
+            des: "Spreadable cream cheese, crumbled blue cheese",
+            calo: "560 CAL",
+            price: "35$"
+        }
+    ]
+}
+export const menu3 = {
+    img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693377244/ss0fq0k6zlilvhfgi2al.png",
+    title: "Dessert",
+    list: [
+        {
+            name: "Fig and lemon cake",
+            des: "Toasted French bread topped with romano, cheddar",
+            calo: "560 CAL",
+            price: "32$"
+        },
+        {
+            name: "Creamy mascarpone cake",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "700 CAL",
+            price: "43$"
+        },
+        {
+            name: "Pastry, blueberries, lemon juice",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "1000 CAL",
+            price: "14$"
+        },
+        {
+            name: "Pain au chocolat",
+            des: "Spreadable cream cheese, crumbled blue cheese",
+            calo: "560 CAL",
+            price: "35$"
+        }
+    ]
+}
+export const menu4 = {
+    img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693377244/fch82uy2crr57ujnzkgh.png",
+    title: "Drinks",
+    list: [
+        {
+            name: "Caffè macchiato",
+            des: "Toasted French bread topped with romano, cheddar",
+            calo: "560 CAL",
+            price: "32$"
+        },
+        {
+            name: "Aperol Spritz Capacianno",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "700 CAL",
+            price: "43$"
+        },
+        {
+            name: "Caffe Latte Campuri",
+            des: "Gorgonzola, ricotta, mozzarella, taleggio",
+            calo: "1000 CAL",
+            price: "14$"
+        },
+        {
+            name: "Tormentoso BushTea Pintoage",
+            des: "Spreadable cream cheese, crumbled blue cheese",
+            calo: "560 CAL",
+            price: "35$"
+        }
+    ]
+}

@@ -14,9 +14,6 @@ function SignUp() {
     return (
         <div className="relative bg-primary-background">
             <div className="pb-[0px]">
-                <div className="px-[152px] bg-primary-background">
-                    <Header></Header>
-                </div>
                 <div className="py-[152px] custom-bg flex flex-column justify-center items-center flex-col">
                     <div className="font-['Helvetica'] text-[48px] font-[700] leading-[56px] text-[#FFF] pb-20px">
                         Sign up page
@@ -87,7 +84,6 @@ function SignUp() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
         </div >
     )
 }

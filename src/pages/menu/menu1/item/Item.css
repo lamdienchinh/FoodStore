@@ -1,0 +1,6 @@
+.menu-item-wrap:hover .menu-item-name {
+    color: #FF9F0D;
+}
+.menu-item-wrap {
+    cursor: pointer;
+}

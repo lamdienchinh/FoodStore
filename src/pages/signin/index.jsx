@@ -14,9 +14,6 @@ function SignIn() {
     return (
         <div className="bg-primary-background relative w-[auto]">
             <div className="pb-[10px]">
-                <div className="px-[152px] bg-primary-background">
-                    <Header></Header>
-                </div>
                 <div className="py-[160px] custom-bg flex flex-column justify-center items-center flex-col">
                     <div className="font-['Helvetica'] text-[48px] font-[700] leading-[56px] text-[#FFF] pb-20px">
                         Sign in page
@@ -80,8 +77,7 @@ function SignIn() {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
-        </div >
+        </div>
     )
 }
 
