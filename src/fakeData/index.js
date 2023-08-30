@@ -197,3 +197,43 @@ export const menu4 = {
         }
     ]
 }
+
+// Cart
+
+export const cart = [
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693380354/mkptihiuorchso7f5tsq.png",
+        name: "Burger",
+        star: 3,
+        number: 1,
+        price: 35
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693380354/uiibz4rdozbs63btfrx0.png",
+        name: "Fresh Lime",
+        star: 3,
+        number: 1,
+        price: 25
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693380354/penymzwy1c39gm5phk14.png",
+        name: "Pizza",
+        star: 3,
+        number: 1,
+        price: 15
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693380354/vhk47hhm3dwuyiwqcdus.png",
+        name: "Chocolate Muffin",
+        star: 3,
+        number: 1,
+        price: 45
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693380354/tex5ozmunc5zkamcdjyt.png",
+        name: "Cheese Butter",
+        star: 3,
+        number: 1,
+        price: 15
+    }
+]
