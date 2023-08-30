@@ -9,6 +9,7 @@ import SignUp from "../pages/signup";
 import Main from "../pages/layout/main";
 import Menu from "../pages/menu";
 import Cart from "../pages/cart";
+import Checkout from "../pages/checkout";
 
 const RouterList = () => {
   return (
@@ -17,8 +18,9 @@ const RouterList = () => {
       <Route element={<Main />}>
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
-        <Route path="/menu" element={<Menu/> } />
-        <Route path="/cart" element={<Cart/> } />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Route>
       {/* <Route path="/" element={<CircleSelector />} /> */}
     </Routes>

@@ -15,9 +15,9 @@ function SignIn() {
         <div className="bg-primary-background relative w-[auto]">
             <div className="pb-[10px]">
                 <div className="py-[160px] custom-bg flex flex-column justify-center items-center flex-col">
-                    <div className="font-['Helvetica'] text-[48px] font-[700] leading-[56px] text-[#FFF] pb-20px">
+                    <h1 className="font-['Helvetica'] text-[48px] font-[700] leading-[56px] text-[#FFF] pb-20px">
                         Sign in page
-                    </div>
+                    </h1>
                     <div className="font-['Inter'] text-[20px] font-[400] leading-[28px] text-[#FFF]">
                         Home {`>`} <span className="text-primary-orange">sign in</span>
                     </div>

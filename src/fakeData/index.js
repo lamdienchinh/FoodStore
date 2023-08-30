@@ -237,3 +237,27 @@ export const cart = [
         price: 15
     }
 ]
+
+
+// Checkout 
+
+export const checkoutlist = [
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693390488/obaaj8jjxw3ipa2e862p.png",
+        name: "Chicken Tikka Kabab",
+        des: "150 gm net",
+        price: 50
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693390488/obaaj8jjxw3ipa2e862p.png",
+        name: "Chicken Tikka Kabab",
+        des: "150 gm net",
+        price: 50
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693390488/obaaj8jjxw3ipa2e862p.png",
+        name: "Chicken Tikka Kabab",
+        des: "150 gm net",
+        price: 50
+    }
+]
