@@ -10,9 +10,9 @@ import SignUp from "../pages/signup";
 const RouterList = () => {
   return (
     <Routes>
+      <Route path="/" element={<Restaurant />}></Route>
       <Route path="/signin" element={<SignIn />}></Route>
       <Route path="/signup" element={<SignUp />}></Route>
-      <Route path="/restaurant" element={<Restaurant />}></Route>
       {/* <Route path="/" element={<CircleSelector />} /> */}
     </Routes>
   );
