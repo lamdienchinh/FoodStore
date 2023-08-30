@@ -2,7 +2,7 @@ import "./Clients.css"
 
 function Clients() {
     return (
-        <div className="w-[auto] h-[auto] mb-[80px] mt-[80px] relative py-[80px]">
+        <div className="w-[auto] h-[auto] relative py-[80px]">
             <div className="clients-overlay w-[100%] h-[100%]">
                 <img className="w-[100%ư h-[100%] object-cover opacity-[0.3]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693296458/wqkn5ztytxlffcvxwrhq.png" alt="background clients"></img>
             </div>
