@@ -61,7 +61,7 @@ const CircleSelector = () => {
         '--previous-rotation4': `${previousRotation[3]}deg`, // Áp dụng giá trị vào biến CSS
     };
     return (
-        <div className="circle-container absolute top-[234.49px] left-[893.07px] w-[624.148px] h-[633.505px]">
+        <div className="circle-container">
             <div className="circle">
                 <span className={`twoleaves ${showTwoLeaves ? 'visible' : 'hidden'}`}></span>
                 <span className="leaf"></span>

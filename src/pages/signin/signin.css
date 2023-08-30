@@ -6,8 +6,6 @@
 }
 .custom-box {
     box-shadow: 0px 4px 80px 0px rgba(255, 159, 13, 0.15);
-    width: 424px;
-    height: 564px;
 }
 .custom-checkbox {
     display: none;

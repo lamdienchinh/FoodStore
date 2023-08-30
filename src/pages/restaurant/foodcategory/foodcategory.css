@@ -7,3 +7,13 @@
     font-weight: 400;
     line-height: 40px; /* 125% */
 }
+.food-category div {
+    visibility: hidden;
+    transform: translateY(calc(-50% + 20px)) translateX(-50%);
+    cursor: pointer;
+}
+.food-category:hover div {
+    visibility: visible;
+    transform: translateY(calc(-50% - 0px)) translateX(-50%);
+    transition: transform 0.5s ease-in-out;
+}

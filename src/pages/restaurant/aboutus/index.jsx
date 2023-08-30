@@ -1,9 +1,9 @@
-import "./aboutus.css"
+import "./AboutUs.css"
 
 function AboutUs() {
     return (
-        <div className="flex flex-row relative w-[1920px] pl-[300px] pr-[300px] pt-[120px] bg-primary-background">
-            <div className="text-left ">
+        <div className="flex flex-row relative w-[auto] pt-[120px] bg-primary-background">
+            <div className="text-left w-[50%]">
                 <div className="special-font pb-[8px]">
                     About Us
                 </div>
@@ -39,16 +39,16 @@ function AboutUs() {
                     Read More
                 </button>
             </div>
-            <div className="flex flex-col absolute left-[960px]">
-                <div className="w-[660px] h-[330px]">
+            <div className="flex flex-col w-[50%]">
+                <div className="w-[auto] h-[330px]">
                     <img className="object-contain" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693277131/pkm2dzdyofq4h4iz6ywb.png"></img>
                 </div>
                 <div className="flex flex-row">
-                    <div className="mt-[16px] w-[322px] h-[194px] mr-[16px]">
-                        <img className="object-contain w-[322px] h-[194px]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693277130/y4lkfajcvab9kbmrb2ix.png"></img>
+                    <div className="mt-[16px] w-[50%px] h-[auto] mr-[16px]">
+                        <img className="object-contain w-[322px]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693277130/y4lkfajcvab9kbmrb2ix.png"></img>
                     </div>
-                    <div className="mt-[16px] w-[322px] h-[194px]">
-                        <img className="object-contain w-[322px] h-[194px]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693277130/mg7ciz0uv8fyqtedkvo7.png"></img>
+                    <div className="mt-[16px] w-[50%px] h-[auto]">
+                        <img className="object-contain w-[322px]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693277130/mg7ciz0uv8fyqtedkvo7.png"></img>
                     </div>
                 </div>
             </div>
