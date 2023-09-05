@@ -1,14 +1,11 @@
-.checkout input, .checkout select {
+.checkout input, .checkout .custom-select {
     border: 2px solid #E0E0E0;
     padding: 14px;
     width: 100%;
     margin-top: 12px;
     margin-bottom: 12px;
 }
-.checkout select {
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
+
 /* .custom-select {
     appearance: none;
     background-color: #fff;

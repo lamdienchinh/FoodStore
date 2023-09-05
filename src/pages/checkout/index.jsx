@@ -72,12 +72,14 @@ function Checkout(props) {
                             <div>
                                 Country
                             </div>
-                            <select className="custom-select" value={country} onChange={(event) => setCountry(event.target.value)}>
-                                <option value="" disabled>Select an option</option>
-                                <option value="option1">Option 1</option>
-                                <option value="option2">Option 2</option>
-                                <option value="option3">Option 3</option>
-                            </select>
+                            <div className="w-[100%] custom-select">
+                                <select className="focus:outline-none w-[100%]" value={country} onChange={(event) => setCountry(event.target.value)}>
+                                    <option value="" disabled>Select an option</option>
+                                    <option value="option1">Option 1</option>
+                                    <option value="option2">Option 2</option>
+                                    <option value="option3">Option 3</option>
+                                </select>
+                            </div>
                         </form>
                     </div>
                     <div className="flex flex-row gap-[22px] w-[100%] text-left">
