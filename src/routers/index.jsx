@@ -10,6 +10,8 @@ import Main from "../pages/layout/main";
 import Menu from "../pages/menu";
 import Cart from "../pages/cart";
 import Checkout from "../pages/checkout";
+import ShopList from "../pages/shoplist";
+import ShopDetail from "../pages/shopdetail";
 
 const RouterList = () => {
   return (
@@ -21,6 +23,8 @@ const RouterList = () => {
         <Route path="/menu" element={<Menu />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
+        <Route path="/shoplist" element={<ShopList />} />
+        <Route path="/shopdetail" element={<ShopDetail />} />
       </Route>
       {/* <Route path="/" element={<CircleSelector />} /> */}
     </Routes>

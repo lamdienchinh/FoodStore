@@ -1,9 +1,7 @@
-import Header from "../layout/header"
+// import Header from "../layout/header"
 import { useState } from "react";
 import gg from "../../assets/Google.png"
-// import img from "../../assets/signin_img.png"
 import "./Signin.css"
-import Footer from "../layout/footer";
 
 function SignIn() {
     const [isChecked, setIsChecked] = useState(false);

@@ -3,7 +3,7 @@ import "./Item.css"
 function Item (props) {
     console.log(props)
     return (
-       <div className="flex flex-row">
+       <div className="flex flex-row cursor-pointer">
             <div className="w-[20%]"> 
                 <img src={props.item.img}></img>
             </div>

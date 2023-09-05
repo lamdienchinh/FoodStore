@@ -1,0 +1,17 @@
+.custom-product {
+    cursor: pointer;
+}
+.custom-product:hover .product-action:hover{
+    background-color: #FF9F0D;
+}
+.custom-product:hover .product-action:hover svg path{
+    stroke: white;
+}
+.product-action {
+    display: none;
+    /* transition: all 1s ease-in-out; */
+}
+.custom-product:hover .product-action{
+   display: block;
+   /* transition: all 1s ease-in-out; */
+}

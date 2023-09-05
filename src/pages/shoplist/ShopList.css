@@ -1,0 +1,16 @@
+.pageClassname, .previousClassName, .nextClassName {    
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #F2F2F2;
+    color:#FF9F0D;
+}
+.pageLinkClassName, .previousLinkClassName, .nextLinkClassName {
+    color:#FF9F0D;
+}
+.pageClassname:hover, .previousClassName:hover, .nextClassName:hover {    
+    background-color: #FF9F0D;
+}
+.pageClassname:hover .pageLinkClassName, .previousClassName:hover .previousLinkClassName, .nextClassName:hover .nextLinkClassName{    
+    color: #FFF;
+}
+

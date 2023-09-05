@@ -17,22 +17,22 @@ function Menu() {
                 <div className="text-primary-orange cursor-pointer font-[700]">
                     Breakfast
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Lunch
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Dinner
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Dessert
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Drink
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Snack
                 </div>
-                <div className="cursor-pointer">
+                <div className="cursor-pointer hover:text-primary-orange font-[700]">
                     Soups
                 </div>
             </div>

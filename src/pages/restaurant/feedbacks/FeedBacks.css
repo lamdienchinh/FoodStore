@@ -1,0 +1,15 @@
+.slick-active svg ellipse{
+    stroke: orange;
+    background-color: orange;
+    fill: orange;
+    fill-opacity: 1;
+}
+.slick-dots {
+    display: flex !important;
+    position: relative;
+    left: -12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
