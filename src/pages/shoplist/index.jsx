@@ -36,14 +36,14 @@ function ShopList() {
                 <div className="flex flex-row gap-[12px] mb-[12px]">
                     <div>
                         <label className="pr-[12px]" for="sort">Sort by:</label>
-                        <select className="text-[#E0E0E0] border py-[4px] pl-[5px] pr-[60px]" name="sort" id="sort">
-                            <option value="newest">Newest</option>
+                        <select className="border py-[4px] pl-[5px] pr-[60px]" name="sort" id="sort">
+                            <option className="" value="newest" selected>Newest</option>
                             <option value="newest">Oldest</option>
                         </select>
                     </div>
                     <div>
                         <label className="pr-[12px]" for="show">Show:</label>
-                        <select className="text-[#E0E0E0] border py-[4px] pl-[5px] pr-[60px]" name="show" id="show">
+                        <select className="border py-[4px] pl-[5px] pr-[60px]" name="show" id="show">
                             <option value="default">Default</option>
                             <option value="other">Other</option>
                         </select>
@@ -81,7 +81,7 @@ function ShopList() {
                     <div className="border border-gray-300 p-[16px] rounded-[6px]">
                         <div className="bg-[#FF9F0D1A] flex flex-row mb-[20px]">
                             <input placeholder="Search Product" className="w-[80%] text-[12px] py-[10px] px-[16px] bg-transparent focus:outline-none"></input>
-                            <div className=" flex items-center justify-center w-[20%] py-[8px] px-[8px] bg-primary-orange">
+                            <div className="cursor-pointer flex items-center justify-center w-[20%] py-[8px] px-[8px] bg-primary-orange">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                     <path d="M9.0625 15.625C12.6869 15.625 15.625 12.6869 15.625 9.0625C15.625 5.43813 12.6869 2.5 9.0625 2.5C5.43813 2.5 2.5 5.43813 2.5 9.0625C2.5 12.6869 5.43813 15.625 9.0625 15.625Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                     <path d="M13.7026 13.7031L17.4996 17.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
