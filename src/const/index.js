@@ -132,7 +132,184 @@ export const listproduct = [
         price: 12,
         isSale: true
     },
-
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886069/eab8ftapvhevseea0uu9.png",
+        name: "Fresh Lime",
+        price: 38,
+        pricebefore: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/si5a3dt7pnmdpxd7lqnq.png",
+        name: "Chocolate Muffin",
+        price: 28,
+        isSale: true
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/vg2nlozs14qmv5cwmh2x.png",
+        name: "Burger",
+        price: 21,
+        pricebefore: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/r4abnyfheyuscudhxqal.png",
+        name: "Country Burger",
+        price: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886067/erselyxrrwxhpjbwwea4.png",
+        name: "Drink",
+        price: 23,
+        pricebefore: 45,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/hgwiogbuhl5ye26naurs.png",
+        name: "Pizza",
+        price: 43,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/cyzqt91f0rsedjslzend.png",
+        name: "Cheese Butter",
+        price: 10,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/xh2srmgvn6fxvrtfyyfm.png",
+        name: "Sandwiches",
+        price: 25,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/ootnhx4hwc0zecozgnlr.png",
+        name: "Chicken Soup",
+        price: 12,
+        isSale: true
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/r4abnyfheyuscudhxqal.png",
+        name: "Country Burger",
+        price: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886067/erselyxrrwxhpjbwwea4.png",
+        name: "Drink",
+        price: 23,
+        pricebefore: 45,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/hgwiogbuhl5ye26naurs.png",
+        name: "Pizza",
+        price: 43,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/cyzqt91f0rsedjslzend.png",
+        name: "Cheese Butter",
+        price: 10,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/xh2srmgvn6fxvrtfyyfm.png",
+        name: "Sandwiches",
+        price: 25,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/ootnhx4hwc0zecozgnlr.png",
+        name: "Chicken Soup",
+        price: 12,
+        isSale: true
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886069/eab8ftapvhevseea0uu9.png",
+        name: "Fresh Lime",
+        price: 38,
+        pricebefore: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/si5a3dt7pnmdpxd7lqnq.png",
+        name: "Chocolate Muffin",
+        price: 28,
+        isSale: true
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/vg2nlozs14qmv5cwmh2x.png",
+        name: "Burger",
+        price: 21,
+        pricebefore: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/r4abnyfheyuscudhxqal.png",
+        name: "Country Burger",
+        price: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886067/erselyxrrwxhpjbwwea4.png",
+        name: "Drink",
+        price: 23,
+        pricebefore: 45,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/hgwiogbuhl5ye26naurs.png",
+        name: "Pizza",
+        price: 43,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/cyzqt91f0rsedjslzend.png",
+        name: "Cheese Butter",
+        price: 10,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/xh2srmgvn6fxvrtfyyfm.png",
+        name: "Sandwiches",
+        price: 25,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/ootnhx4hwc0zecozgnlr.png",
+        name: "Chicken Soup",
+        price: 12,
+        isSale: true
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886068/r4abnyfheyuscudhxqal.png",
+        name: "Country Burger",
+        price: 45,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886067/erselyxrrwxhpjbwwea4.png",
+        name: "Drink",
+        price: 23,
+        pricebefore: 45,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/hgwiogbuhl5ye26naurs.png",
+        name: "Pizza",
+        price: 43,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/cyzqt91f0rsedjslzend.png",
+        name: "Cheese Butter",
+        price: 10,
+        isSale: false
+    },
+    {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886065/xh2srmgvn6fxvrtfyyfm.png",
+        name: "Sandwiches",
+        price: 25,
+        isSale: false
+    }, {
+        img: "https://res.cloudinary.com/dfoj6menm/image/upload/v1693886064/ootnhx4hwc0zecozgnlr.png",
+        name: "Chicken Soup",
+        price: 18,
+        isSale: true
+    }
 ]
 
 // Shop detail

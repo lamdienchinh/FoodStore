@@ -9,8 +9,19 @@ import ReactPaginate from 'react-paginate';
 import "./ShopList.css"
 
 function ShopList() {
-    const pageCount = 3;
-    const [valueFilter, setValueFilter] = useState([0, 8000])
+    const [valueFilter, setValueFilter] = useState([0, 8000]);
+    const [currentPage, setCurrentPage] = useState(0);
+    const productsPerPage = 15;
+
+    const handlePageClick = (data) => {
+        const selectedPage = data.selected;
+        setCurrentPage(selectedPage);
+    };
+
+    const offset = currentPage * productsPerPage;
+    const currentProducts = listproduct.slice(offset, offset + productsPerPage);
+    const pageCount = Math.ceil(listproduct.length / productsPerPage);
+
     return (
         <div>
             <div className="py-[160px] custom-bg flex flex-column justify-center items-center flex-col">
@@ -41,17 +52,15 @@ function ShopList() {
                 <div className="flex flex-row gap-[22px]">
                     <div className="w-[70%] flex flex-col">
                         <div className="grid grid-cols-3 gap-[12px]">
-                            {
-                                listproduct && listproduct.map((item, index) => (
-                                    <Product item={item} key={index}></Product>
-                                ))
-                            }
+                            {currentProducts.map((item, index) => (
+                                <Product item={item} key={index}></Product>
+                            ))}
                         </div>
                         <div className="flex justify-center align-center mt-[35px]">
                             <ReactPaginate
                                 pageClassName="pageClassname"
                                 activeClassName="activeClassName"
-                                pageLinkClassName ="pageLinkClassName"
+                                pageLinkClassName="pageLinkClassName"
                                 activeLinkClassName="activeLinkClassName"
                                 previousClassName="previousClassName"
                                 previousLinkClassName="previousLinkClassName"
@@ -60,7 +69,7 @@ function ShopList() {
                                 className="flex flex-row gap-[20px]"
                                 breakLabel="..."
                                 nextLabel=">>"
-                                // onPageChange={handlePageClick}
+                                onPageChange={handlePageClick}
                                 pageRangeDisplayed={5}
                                 pageCount={pageCount}
                                 previousLabel="<<"
@@ -83,35 +92,35 @@ function ShopList() {
                             <div className="text-[18px] font-[700] pb-[18px]">Category</div>
                             <div className="flex flex-col gap-[10px] mb-[14px] ">
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
-                                    <label>Sandwiches</label>
+                                    <input className="customize-checkbox" type="checkbox"></input>
+                                    <label >Sandwiches</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Burger</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Chicken Chup</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Drink</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Pizza</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Thi</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Non Veg</label>
                                 </div>
                                 <div className="flex gap-[8px]">
-                                    <input type="checkbox"></input>
+                                    <input className="customize-checkbox" type="checkbox"></input>
                                     <label>Uncategorized</label>
                                 </div>
                             </div>

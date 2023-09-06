@@ -18,7 +18,7 @@ function Contact() {
                         <input outline="none" type="text" className="placeholder-opacity-[0.59] placeholder-[#FFF] text-[#FFF] focus:outline-none focus:bg-transparent focus:border-gray-300 focus:ring-0 border-[none] pl-[20px] pt-[15.96px] pb-[15.9px] flex flex-row items-center w-[296px] h-[55.864px] shrink-0 bg-primary-orange font-['Inter'] text-[16px] font-[400] leading-[24[px]" placeholder="Enter Your Email">
                         </input>
                     </div>
-                    <div className="justify-center content-center text-primary-orange pl-[24px] pt-[15.96px] pb-[15.9px] pr-[24px] flex flex-row items-center w-[163px] h-[55.864px] shrink-0 bg-[#FFF] font-['Inter'] text-[16x] font-[400] leading-[24[px]">
+                    <div className="cursor-pointer justify-center content-center text-primary-orange pl-[24px] pt-[15.96px] pb-[15.9px] pr-[24px] flex flex-row items-center w-[163px] h-[55.864px] shrink-0 bg-[#FFF] font-['Inter'] text-[16x] font-[400] leading-[24[px]">
                         Subcribe Now
                     </div>
                 </div>
