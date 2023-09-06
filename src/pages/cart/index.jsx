@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { cart } from "../../fakeData"
 import Product from "./product";
+import { useNavigate } from 'react-router-dom';
 
 function Cart() {
     const [totalPrice, setTotalPrice] = useState(0);
@@ -14,6 +15,10 @@ function Cart() {
         }
         setTotalPrice(temp);
     }, [])
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate("/checkout")
+    }
     return (
         <div>
             <div className="py-[160px] custom-bg flex flex-column justify-center items-center flex-col">
@@ -58,10 +63,10 @@ function Cart() {
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non
                         </div>
                         <div className="flex flex-row mt-[16px] border-[2px] rounded-[6px] border-r-0">
-                            <div className="w-[80%]">
+                            <div className="w-[85%]">
                                 <input className="px-[16px] focus:outline-none w-[100%] h-[100%]" placeholder="Enter your code hear"></input>
                             </div>
-                            <button className="w-[20%] bg-primary-orange rounded-[6px] border-primary-orange border-[2px]">
+                            <button className="text-[#FFF] w-[15%] bg-primary-orange rounded-[6px] border-primary-orange border-[2px]">
                                 Apply
                             </button>
                         </div>
@@ -98,7 +103,7 @@ function Cart() {
                         </div>
                     </div>
                     <div className="mt-[32px]">
-                        <button className="flex flex-row items-center gap-[12px] justify-center w-[100%] font-[400] bg-primary-orange rounded-none text-[#FFF] text-[18px] font-['Inter']">
+                        <button onClick={() => handleClick()} className="flex flex-row items-center gap-[12px] justify-center w-[100%] font-[400] bg-primary-orange rounded-none text-[#FFF] text-[18px] font-['Inter']">
                             Proceed to Checkout
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                                 <path d="M3.4375 11.1932V4.0625C3.4375 3.89674 3.50335 3.73777 3.62056 3.62056C3.73777 3.50335 3.89674 3.4375 4.0625 3.4375H15.9375C16.1033 3.4375 16.2622 3.50335 16.3794 3.62056C16.4967 3.73777 16.5625 3.89674 16.5625 4.0625V15.9375C16.5625 16.1033 16.4967 16.2622 16.3794 16.3794C16.2622 16.4967 16.1033 16.5625 15.9375 16.5625H10.5966" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

@@ -2,6 +2,7 @@ import { useState } from "react"
 import "./Checkout.css"
 import { checkoutlist } from "../../fakeData"
 import OrderItem from "./orderitem"
+import {useNavigate} from "react-router-dom"
 
 function Checkout(props) {
     const [firstname, setFirstName] = useState("")
@@ -18,6 +19,10 @@ function Checkout(props) {
     const handleCheckboxChange = () => {
         setIsChecked(!isChecked);
     };
+    const navigate = useNavigate()
+    const handleClick = () => {
+        navigate('/cart')
+    }
     return (
         <div className="checkout">
             <div className="py-[160px] custom-bg flex flex-column justify-center items-center flex-col">
@@ -129,7 +134,7 @@ function Checkout(props) {
                         </div>
                     </div>
                     <div className="text-[16px] w-[100%] flex flex-row gap-[20px]">
-                        <button className="justify-center rounded-none py-[12px] w-[50%] flex flex-row gap-[20px] bg-[#FFF] border-[2px] border-[#E0E0E0] text-[#333]">
+                        <button onClick={handleClick} className="justify-center rounded-none py-[12px] w-[50%] flex flex-row gap-[20px] bg-[#FFF] border-[2px] border-[#E0E0E0] text-[#333]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                                 <path d="M15 19.5L7.5 12L15 4.5" stroke="#4F4F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
