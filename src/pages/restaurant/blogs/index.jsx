@@ -2,17 +2,17 @@ import "./Blogs.css"
 
 function Blogs() {
     return (
-        <div className="px-[152px] pt-[120px]">
-            <div className="special-font">
+        <div className="px-[10%] pt-[120px] pb-[50px]">
+            <div className="special-font max-lg:text-[40px] max-2xl:text-[20px] max-sm:text-[32px]">
                 Blog Posts
             </div>
-            <div className="text-[#FFF] text-[48px] text-['Helvetica'] font-[700] mb-[30px]">
-                <span>La</span><span>test News & Blog</span>
+            <div className="text-[#FFF] text-[48px] font-['Helvetica'] font-[700] mb-[30px] max-lg:text-[68px] max-[500px]:text-[36px] max-sm:text-[42px] max-2xl:text-[36px]">
+                Latest News & Blog
             </div>
-            <div className="w-[100%] flex flex-row gap-[20px]">
-                <div className="flex flex-col w-[33.33%] border border-[#FFF] border-solid pb-[20px] h-[580px]">
-                    <div className="h-[60%]">
-                        <img className="h-[100%] object-cover" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/ttqtmwouofg4g52x6qop.png" alt="bài post"></img>
+            <div className="w-[100%] flex flex-col xl:flex-row gap-[20px]">
+                <div className="w-[100%] flex flex-col xl:w-[33.33%] border border-[#FFF] border-solid pb-[20px] h-[580px]">
+                    <div className="h-[60%] w-[100%]">
+                        <img className="h-[100%] w-[100%] object-cover" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/ttqtmwouofg4g52x6qop.png" alt="bài post"></img>
                     </div>
                     <div className="h-[40%] px-[30px] flex w-[100%] flex-col text-start">
                         <div className="h-[10%] mt-[16px] text-primary-orange font-['Inter'] text-[16px]">
@@ -47,9 +47,9 @@ function Blogs() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-[33.33%] border border-[#FFF] border-solid pb-[20px] flex-row">
-                    <div className="h-[60%]">
-                        <img className="h-[100%] object-cover" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/la4b7p2bei7cqdbmzedn.png" alt="bài post"></img>
+                <div className="w-[100%] flex flex-col xl:w-[33.33%] border border-[#FFF] border-solid pb-[20px]">
+                    <div className="h-[60%] w-[100%]">
+                        <img className="h-[100%] object-cover w-[100%]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/la4b7p2bei7cqdbmzedn.png" alt="bài post"></img>
                     </div>
                     <div className="h-[40%] px-[30px] flex w-[100%] flex-col text-start">
                         <div className="h-[10%] mt-[16px] text-primary-orange font-['Inter'] text-[16px]">
@@ -84,9 +84,9 @@ function Blogs() {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col w-[33.33%] border border-[#FFF] border-solid pb-[20px] h-[580px]">
-                    <div className="h-[60%]">
-                        <img className="h-[100%] object-cover" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/wean6g3yfisfvjfy10d5.png" alt="bài post"></img>
+                <div className="w-[100%] flex flex-col xl:w-[33.33%] border border-[#FFF] border-solid pb-[20px] h-[580px]">
+                    <div className="h-[60%] w-[100%]">
+                        <img className="h-[100%] object-cover w-[100%]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693364856/wean6g3yfisfvjfy10d5.png" alt="bài post"></img>
                     </div>
                     <div className="h-[40%] px-[30px] flex w-[100%] flex-col text-start">
                         <div className="h-[10%] mt-[16px] text-primary-orange font-['Inter'] text-[16px]">

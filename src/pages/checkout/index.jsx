@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./Checkout.css"
 import { checkoutlist } from "../../fakeData"
 import OrderItem from "./orderitem"
-import {useNavigate} from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 
 function Checkout(props) {
     const [firstname, setFirstName] = useState("")

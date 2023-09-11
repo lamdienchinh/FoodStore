@@ -61,8 +61,8 @@ const CircleSelector = () => {
         '--previous-rotation4': `${previousRotation[3]}deg`, // Áp dụng giá trị vào biến CSS
     };
     return (
-        <div className="circle-container">
-            <div className="circle">
+        <div className="aspect-square circle-container">
+            <div className="aspect-square circle">
                 <span className={`twoleaves ${showTwoLeaves ? 'visible' : 'hidden'}`}></span>
                 <span className="leaf"></span>
                 <span style={elementStyle} onClick={() => handleClick(4)} className={`item item4 size-${listIndex[0]} rotation-4`}></span>

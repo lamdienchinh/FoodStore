@@ -7,10 +7,10 @@ function Footer() {
 
     return (
         <div className="relative mx-[auto] h-[auto] w-[auto] bg-primary-background pt-[120px]">
-            <div className="px-[152px]">
+            <div className="px-[10%]">
                 <Contact />
-                <div className="flex flex-row">
-                    <div className="flex flex-col w-[35%]">
+                <div className="md:grid md:grid-cols-2 2xl:flex 2xl:flex-row 2xl:gap-[0px] min-[320px]:flex-col gap-[40px]">
+                    <div className="flex flex-col 2xl:w-[35%] md:w-[100%]">
                         <div className="text-left shrink-0 font-['Helvetica'] text-[20px] leading-[28px] text-[#FFF] font-[700]">
                             About Us.
                         </div>
@@ -39,7 +39,7 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-                    <div className="font-['Helvetica'] text-[#FFF] w-[20%]">
+                    <div className="font-['Helvetica'] text-[#FFF] 2xl:w-[20%]  md:w-[100%]">
                         <h1 className="text-left font-[700] leading-[28px] text-[20px] mb-[23.93px]">
                             Useful Links
                         </h1>
@@ -62,7 +62,7 @@ function Footer() {
                             Contact
                         </h3>
                     </div>
-                    <div className="w-[135.365px] font-['Helvetica'] text-[#FFF] w-[20%]">
+                    <div className="font-['Helvetica'] text-[#FFF] 2xl:w-[20%]  md:w-[100%]">
                         <h1 className="footer-link text-left font-[700] leading-[28px] text-[20px] mb-[23.93px]">
                             Help?
                         </h1>
@@ -85,7 +85,7 @@ function Footer() {
                             Privacy
                         </h3>
                     </div>
-                    <div className="w-[100%] h-[100%] font-['Helvetica'] text-[#FFF] w-[25%]">
+                    <div className="h-[100%] font-['Helvetica'] text-[#FFF] 2xl:w-[25%]  md:w-[100%]">
                         <h1 className="text-left text-[20px] font-[700] mb-[31.9px]">Recent Posts</h1>
                         {recentPosts && recentPosts.map((post, index) => (
                             <Recent_Post post={post} key={index} />

@@ -2,22 +2,20 @@ import "./Video.css"
 
 function Video() {
     return (
-        <div className="pr-[152px] flex flex-col justify-center items-end mt-[100px] w-[100%] h-[558px] bg-[url('https://res.cloudinary.com/dfoj6menm/image/upload/v1693363556/vsvxmzbjov3u3lfskjv8.png')]">
-            <div className="w-[60%] flex flex-col justify-center text-right content-end">
-                <div className="special-font">
+        <div className="min-[320px]:bg-cover min-[320px]:px-[10%] min-[320px]:py-[120px] min-[320px]:bg-no-repeat 2xl:pr-[152px] flex flex-col justify-center items-end mt-[100px] w-[100%] bg-[url('https://res.cloudinary.com/dfoj6menm/image/upload/v1693363556/vsvxmzbjov3u3lfskjv8.png')]">
+            <div className="min-[320px]:text-center xl:text-right min-[320px]:w-[100%] w-[60%] flex flex-col justify-center text-right content-end">
+                <div className="special-font max-lg:text-[40px] max-2xl:text-[20px] max-sm:text-[32px]">
                     Restaurant Active Process
                 </div>
-                <div className="text-[48px] font-['Helvetica'] font-[700] text-[#FFF]">
-                    <span className="text-primary-orange">We </span>
-                    <span>
-                        Document Every Food <br/>
-                        Bean Process until it is saved
-                    </span>
+                <div className="text-[48px] font-['Helvetica'] font-[700] text-[#FFF] max-lg:text-[68px] max-[500px]:text-[36px] max-sm:text-[42px] max-2xl:text-[36px]">
+                    <span className="text-primary-orange font-['Helvetica']">We </span>
+                    Document Every Food <br />
+                    Bean Process until it is saved
                 </div>
                 <div className="font-['Inter']  text-[16px] text-[#FFF] mt-[20px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br/> bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna,
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque <br /> bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna,
                 </div>
-                <div className="flex flex-row gap-[30px] justify-end mt-[30px]">
+                <div className="xl:justify-end flex flex-row gap-[30px] justify-center mt-[30px]">
                     <button className="font-[600] bg-transparent rounded-[30px] px-[40px] py-[10px] text-[#FFF] border-primary-orange border">
                         Read More
                     </button>

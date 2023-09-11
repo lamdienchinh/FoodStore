@@ -15,13 +15,13 @@ function Restaurant() {
     return (
         <div className="custom-background relative w-[auto] bg-primary-background">
             <Banner />
-            <div className="mb-[60px] px-[152px]">
+            <div className="mb-[60px] px-[10%]">
                 <AboutUs />
                 <FoodCategory />
                 <Reason />
             </div>
             <Clients />
-            <div className="mt-[60px] px-[152px]">
+            <div className="mt-[60px] px-[10%]">
                 <Menu />
                 <Chefs />
                 <FeedBacks/>

@@ -53,3 +53,7 @@
     border-radius   : 100%;
     transition      : all 0.2s;
 }
+.sidebar-btn {
+    width: 100%;
+    position: relative;
+}

@@ -3,13 +3,11 @@ import { NavLink, Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <div className="navbar w-[auto] pb-[30px] mx-auto bg-transparent" >
-            <Link to="/">
-                <div className="header__logo font-['Helvetica'] pt-[30px]">
-                    <span className="text-primary-orange text-sm" >Food</span>
-                    <span className="text-white text-sm">tuck</span>
-                </div>
-            </Link>
+        <div className="w-[auto] pb-[30px] mx-auto bg-transparent" >
+            <div className="header__logo font-['Helvetica'] pt-[30px]">
+                <span className="text-primary-orange text-sm" >Food</span>
+                <span className="text-white text-sm">tuck</span>
+            </div>
             <div className="flex items-center relative z-[2]" >
                 <div className="header__items">
                     <NavLink to="/" className="header__item">Home</NavLink>

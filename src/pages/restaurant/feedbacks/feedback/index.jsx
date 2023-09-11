@@ -2,7 +2,7 @@
 function FeedBack() {
     return (
         <div className="relative font-['Helvetica'] flex flex-col justify-center items-center mt-[100px] w-[100%] text-center">
-            <div className="bg-[#FFF] w-[74%] flex flex-col justify-center items-center">
+            <div className="min-[320px]:w-[100%] bg-[#FFF] w-[74%] flex flex-col justify-center items-center">
                 <div className="relative translate-y-[-50%]">
                     <img className="rounded-[100%]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693303011/bhvejxbkeaodwndgauqq.png" alt="avatar"></img>
                 </div>
@@ -12,7 +12,7 @@ function FeedBack() {
                         <path d="M42.5853 27.9133H29.8431C29.4455 27.9133 29.0642 27.7553 28.7831 27.4741C28.5019 27.1928 28.344 26.8114 28.344 26.4137V14.4166C28.344 14.0189 28.5019 13.6375 28.7831 13.3562C29.0642 13.075 29.4455 12.917 29.8431 12.917H41.0862C41.4838 12.917 41.8651 13.075 42.1462 13.3562C42.4273 13.6375 42.5853 14.0189 42.5853 14.4166V30.9126C42.5853 32.9012 41.7956 34.8084 40.3899 36.2146C38.9843 37.6208 37.0778 38.4107 35.0899 38.4107" stroke="#FF9F0D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </div>
-                <div className="text-[16px] px-[200px] mb-[20px]">
+                <div className="min-[320px]:px-[10px] text-[16px] md:px-[100px] lg:px-[200px] mb-[20px]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.
                 </div>
                 <div className="mb-[20px]">
