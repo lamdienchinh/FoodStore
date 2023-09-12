@@ -9,13 +9,13 @@ function Footer() {
         <div className="relative mx-[auto] h-[auto] w-[auto] bg-primary-background pt-[120px]">
             <div className="px-[10%]">
                 <Contact />
-                <div className="md:grid md:grid-cols-2 2xl:flex 2xl:flex-row 2xl:gap-[0px] min-[320px]:flex-col gap-[40px]">
+                <div className="md:grid md:grid-cols-2 2xl:flex 2xl:flex-row 2xl:gap-[0px] min-[320px]:flex min-[320px]:flex-col min-[320px]:gap-[40px]">
                     <div className="flex flex-col 2xl:w-[35%] md:w-[100%]">
                         <div className="text-left shrink-0 font-['Helvetica'] text-[20px] leading-[28px] text-[#FFF] font-[700]">
-                            About Us.
+                            About Us
                         </div>
                         <div className="mt-[31.9px] pr-[50px] shrink-0 text-[#FFF] font-['Helvetica'] text-[18px] font-[400] leading-[26px] text-left">
-                            orporate clients and leisure travelers has been relying on Groundlink for dependablesafe, and professional chauffeured carservice in major cities across World.
+                            Corporate clients and leisure travelers has been relying on Groundlink for dependablesafe, and professional chauffeured carservice in major cities across World.
                         </div>
                         <div className="flex flex-row mt-[24.92px]">
                             <div className="flex w-[77.234px] h-[70.786px] shrink-0 bg-primary-orange text-justify items-center content-center justify-center mr-[17.3px]">
@@ -40,7 +40,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="font-['Helvetica'] text-[#FFF] 2xl:w-[20%]  md:w-[100%]">
-                        <h1 className="text-left font-[700] leading-[28px] text-[20px] mb-[23.93px]">
+                        <h1 className="text-left font-[700] leading-[28px] text-[20px] mb-[23.93px] font-['Helvetica']">
                             Useful Links
                         </h1>
                         <h3 className="footer-link text-left mb-[15.95px] text-[16px] leading-[24px]">
@@ -63,7 +63,7 @@ function Footer() {
                         </h3>
                     </div>
                     <div className="font-['Helvetica'] text-[#FFF] 2xl:w-[20%]  md:w-[100%]">
-                        <h1 className="footer-link text-left font-[700] leading-[28px] text-[20px] mb-[23.93px]">
+                        <h1 className="text-left font-[700] leading-[28px] text-[20px] mb-[23.93px] font-['Helvetica']">
                             Help?
                         </h1>
                         <h3 className="footer-link text-left mb-[15.95px] text-[16px] leading-[24px]">
@@ -86,7 +86,7 @@ function Footer() {
                         </h3>
                     </div>
                     <div className="h-[100%] font-['Helvetica'] text-[#FFF] 2xl:w-[25%]  md:w-[100%]">
-                        <h1 className="text-left text-[20px] font-[700] mb-[31.9px]">Recent Posts</h1>
+                        <h1 className="text-left text-[20px] font-[700] mb-[31.9px] font-['Helvetica']">Recent Posts</h1>
                         {recentPosts && recentPosts.map((post, index) => (
                             <Recent_Post post={post} key={index} />
                         ))}
