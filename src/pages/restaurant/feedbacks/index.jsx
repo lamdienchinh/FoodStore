@@ -22,10 +22,10 @@ function FeedBacks() {
     };
     return (
         <div className="pb-[60px]">
-            <div className="text-left special-font sm:max-lg:text-[40px] lg:max-2xl:text-[20px] min-[375px]:max-sm:text-[32px]">
+            <div className="text-left special-font max-lg:text-[40px] max-2xl:text-[20px] max-sm:text-[32px]">
                 Testimonials
             </div>
-            <div className="text-left font-['Helvetica'] text-[48px] font-[700] text-[#FFF] sm:max-lg:text-[68px] min-[320px]:max-[500px]:text-[36px] min-[375px]:max-sm:text-[42px] lg:max-2xl:text-[36px]">
+            <div className="text-left font-['Helvetica'] text-[48px] font-[700] text-[#FFF] max-lg:text-[68px] max-[500px]:text-[36px] max-sm:text-[42px] max-2xl:text-[36px]">
                 What our client are saying
             </div>
             <div>

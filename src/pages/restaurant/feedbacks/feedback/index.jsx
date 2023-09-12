@@ -2,7 +2,7 @@
 function FeedBack() {
     return (
         <div className="relative font-['Helvetica'] flex flex-col justify-center items-center mt-[100px] w-[100%] text-center">
-            <div className="min-[320px]:w-[100%] bg-[#FFF] w-[74%] flex flex-col justify-center items-center">
+            <div className="min-[320px]:w-[100%] bg-[#FFF] 2xl:w-[74%] flex flex-col justify-center items-center">
                 <div className="relative translate-y-[-50%]">
                     <img className="rounded-[100%]" src="https://res.cloudinary.com/dfoj6menm/image/upload/v1693303011/bhvejxbkeaodwndgauqq.png" alt="avatar"></img>
                 </div>
